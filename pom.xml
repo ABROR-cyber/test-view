@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.test-view</groupId>
+    <artifactId>test-view</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description>A application used as an example on how to set up pushing
+        its components to the Central Repository.</description>
+    <url>https://github.com/ABROR-cyber/test-view.git</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Abror Abduganiev</name>
+            <email>abror01042001@gmail.com</email>
+            <organization>uz.pdp</organization>
+            <organizationUrl>https://github.com/ABROR-cyber/test-view.git</organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/ABROR-cyber/test-view.git</connection>
+        <developerConnection>scm:git:ssh://github.com:ABROR-cyber/test-view.git</developerConnection>
+        <url>http://github.com/ABROR-cyber/test-view.git</url>
+    </scm>
+</project>
